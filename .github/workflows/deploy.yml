@@ -35,7 +35,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build slides for GitHub Pages
-        run: pnpm run build -- --base "/${{ github.event.repository.name }}/"
+        env:
+          BASE_PATH: "/${{ github.event.repository.name }}/"
+        run: pnpm exec slidev build --base "$BASE_PATH"
+
+      - name: Add .nojekyll
+        run: touch ./dist/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
