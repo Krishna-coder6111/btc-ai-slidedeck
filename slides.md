@@ -446,9 +446,9 @@ The map is *huge*. Instead of guessing, find a smart way to reach the goal.
 ---
 
 
-# Search = exploring step by step
+# [Search](https://qiao.github.io/PathFinding.js/visual/) = exploring step by step
 
-An agent never sees the whole answer. It checks the closest states first, then the next ring, then the next — until it reaches the goal.
+An agent never sees the whole answer. It checks the closest states first, then the next ring, then the next, until it reaches the goal.
 
 <div style="height: 350px; overflow: auto; border-radius: 8px; margin-top: 10px;" class="border">
   <iframe 
