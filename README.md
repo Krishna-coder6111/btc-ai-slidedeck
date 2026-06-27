@@ -1,11 +1,24 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# btc-ai-slidedeck — Slidev slides for BTC + AI
 
-To start the slide show:
+Quick start
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+- Install dependencies: `pnpm install`
+- Run dev server: `pnpm run dev` (opens the slides, default port shown in terminal)
+- Build static site: `pnpm run build`
+- Export PDF/HTML: `pnpm run export`
 
-Edit the [slides.md](./slides.md) to see the changes.
+Notes
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+- Slide source: [slides.md](slides.md)
+- Public assets: put images and static files in the `public/` folder and reference them as `/filename` (served at the site root).
+- Theme: uses `@slidev/theme-bricks` and UnoCSS via Slidev.
+
+Deploy
+
+- GitHub Pages: build with `pnpm run build` and publish the `dist/` output (push to `gh-pages` branch or copy into `docs/`).
+- Netlify / Vercel: connect the repo and set the build command to `pnpm run build` and publish directory to `dist/`.
+
+More
+
+- Edit the slides in [slides.md](slides.md). See Slidev docs: https://sli.dev/
+
