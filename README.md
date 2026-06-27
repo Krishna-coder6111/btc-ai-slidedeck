@@ -15,7 +15,7 @@ Notes
 
 Deploy
 
-- GitHub Pages: build with `pnpm run build` and publish the `dist/` output (push to `gh-pages` branch or copy into `docs/`).
+- GitHub Pages: push to the `main` branch and the included workflow will build the slides and publish them automatically.
 - Netlify / Vercel: connect the repo and set the build command to `pnpm run build` and publish directory to `dist/`.
 
 More
