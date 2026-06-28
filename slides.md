@@ -32,6 +32,19 @@ transition: fade-out
 - **Ice breaker question** : What song or album could you listen to on repeat?
 
 ---
+transition: slide-up
+layout: quote
+---
+
+# What is AI?
+
+Write **1–2 examples** on a sticky note.
+
+<!--
+Handout sticky notes. Students write 1-2 examples on sticky notes and group them together on the board by category.
+-->
+
+---
 
 # Turns out, AI comes in a few flavors
 
